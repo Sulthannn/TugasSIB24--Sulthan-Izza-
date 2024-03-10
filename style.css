@@ -1,0 +1,161 @@
+body {
+ font-family: 'Poppins', sans-serif;
+ background-color: #f4f4f4;
+ margin: 0;
+}
+  
+form {
+ max-width: 600px;
+ margin: 40px auto;
+ padding: 20px;
+ background-color: #ffffff;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+legend {
+ font-weight: bold;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border: 1px solid #cccccc;
+ border-radius: 5px;
+ box-sizing: border-box;
+}
+
+button[type="submit"] {
+ padding: 10px;
+ background-color: #007bff;
+ color: #ffffff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+  }
+
+button[type="submit"]:hover {
+ background-color: #042d5a;
+} 
+
+button[type="reset"] {
+ padding: 10px;
+ background-color: #ee0202;
+ color: #ffffff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button[type="reset"]:hover {
+ background-color: #710d0d;
+  } 
+
+.back {
+ text-decoration: none;
+ padding: 10px;
+ background-color: #747474;
+ color: #ffffff;
+ border-radius: 5px;
+ float: right;
+}
+
+.back:hover {
+ background-color: #3a3a3a;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #3F6F83;
+ color: #ffffff;
+ padding: 20px;
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+}
+
+header h1 {
+ margin: 0;
+ font-size: 24px; 
+}
+
+header p {
+ margin: 0;
+ font-size: 12px; 
+}
+
+.carousel {
+ position: relative;
+ width: 100%;
+}
+
+.carousel-slide img {
+ width: 100%; 
+ height: auto; 
+}
+
+.prev, .next {
+ padding: 10px;
+ font-size: 20px;
+ position: absolute;
+ top: 50%;
+ background-color: #1c1c1c;
+ color: #ffffff;
+ border: none;
+ cursor: pointer;
+}
+
+.prev {
+ left: 10px;
+}
+
+.next {
+ right: 10px;
+}
+
+.content {
+ max-width: 600px;
+ margin: 30px auto;
+ padding: 30px;
+ background-color: #ffffff;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ text-align: center; 
+}
+
+.content h2 {
+ font-size: 24px;
+ color: #1c1c1c;
+ margin: 0;
+}
+
+.content p {
+ text-align: start;
+ font-size: 16px;
+ color: #6f6f6f;
+}
+
+.regis {
+ background-color: #3F6F83;
+ color: #ffffff;
+ text-decoration: none;
+ padding: 10px;
+ border-radius: 5px;
+}
+
+.regis:hover {
+ background-color: #042d5a;
+}
+ 
+footer p {
+ font-size: 12px; 
+ text-align: center;
+ margin: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form method="get">
+      <legend for="nama">Nama</legend>
+      <input
+        type="text"
+        name="nama"
+        id="nama"
+        placeholder="Nama lengkap"
+      /><br />
+      <legend for="email">Email</legend>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email aktif"
+      /><br />
+      <legend for="nomor">No HP</legend>
+      <input
+        type="number"
+        name="nomor"
+        id="nomor"
+        placeholder="No HP aktif"
+      /><br />
+      <legend for="jk">Jenis Kelamin</legend>
+      <input type="radio" name="jk" id="laki" value="Laki-laki" />
+      <label for="laki">Laki-laki</label><br />
+      <input type="radio" name="jk" id="perempuan" value="Perempuan" />
+      <label for="perempuan">Perempuan</label><br /><br />
+      <legend>Prodi</legend>
+      <select name="prodi">
+        <option value="">Pilih</option>
+        <option value="Sistem Informasi Kelautan">
+          Sistem Informasi Kelautan
+        </option>
+        <option value="Logistik Kelautan">Logistik Kelautan</option>
+        <option value="Pendidikan Kelautan Perikanan">
+          Pendidikan Kelautan Perikanan
+        </option></select
+      ><br />
+      <legend>Hobi</legend>
+      <input type="checkbox" id="membaca" value="membaca" />
+      <label for="membaca">Membaca</label>
+      <br />
+      <input type="checkbox" id="menulis" value="menulis" />
+      <label for="menulis">Menulis</label>
+      <br />
+      <input type="checkbox" id="menyanyi" value="menyanyi" />
+      <label for="menyanyi">Menyanyi</label>
+      <br />
+      <input type="checkbox" id="olahraga" value="olahraga" />
+      <label for="olahraga">Olahraga</label>
+      <br /><br />
+      <legend for="alamat">Alamat</legend>
+      <textarea
+        id="alamat"
+        name="alamat"
+        placeholder="Alamat lengkap"
+      ></textarea>
+      <legend>Foto Diri</legend>
+      <input
+        type="file"
+        id="diri"
+        name="diri"
+        accept=".png, .jpg, .jpeg"
+      /><br /><br />
+      <button type="submit" onclick="registration()" >Daftar</button>
+      <button type="reset" onclick="trash()">Hapus</button>
+      <a href="index.html" class="back">Kembali</a>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
